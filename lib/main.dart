@@ -10,7 +10,9 @@ import 'package:admin_dashboard/services/notifications_service.dart';
 import 'package:flutter/material.dart';
 import 'package:admin_dashboard/services/local_storage.dart';
 
-import 'package:provider/provider.dart';void main() async {
+import 'package:provider/provider.dart';
+
+void main() async {
 
 await LocalStorage.configurePrefs();
 CafeApi.configureDio();

@@ -12,7 +12,7 @@ class CafeApi {
 
     // Base del url
     // _dio.options.baseUrl = 'http://localhost:8080/api';
-    _dio.options.baseUrl = 'https://dashboard-flutter-prueba.herokuapp.com/api';
+    _dio.options.baseUrl = '';
 
     // Configurar Headers
     _dio.options.headers = {
